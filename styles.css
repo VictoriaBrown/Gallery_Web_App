@@ -1,0 +1,30 @@
+body {
+    padding: 20px;
+    font-family: Helvetica;
+    background-color: #20262e;
+  }
+  
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  li {
+    display: flex;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 250%;
+      color: white;
+  }
+  
+  img, iframe {
+      max-width: 100%;
+  }
